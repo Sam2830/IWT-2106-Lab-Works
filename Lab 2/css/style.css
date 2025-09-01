@@ -1,0 +1,42 @@
+body {
+  background-image: url("/Lab\ Class-2/images/img.jpg");
+  font-family: cursive;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+p {
+  background-color: rgb(88, 193, 228);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: xx-large;
+  color: rgb(243, 248, 248);
+  text-align: justify;
+}
+a:link {
+  color: rgb(128, 0, 0);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(162, 30, 52);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(77, 139, 197);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+img {
+  width: 70%;
+  height: 100%;
+  border: 3px solid black;
+  /* image-orientation: flip; */
+  /* display: block;
+  margin: auto; */
+  float: left;
+}

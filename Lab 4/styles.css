@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: url('lab4.jpg') no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(30, 41, 59, 0.45); /* semi-transparent overlay */
+    z-index: -1;
+}
+
+div{
+
+width: 80px;
+display:flex;
+border:1px solid white;
+box-sizing:border-box;
+background-color:green;
+color:black;
+padding:10px 10px;
+margin:0;
+}
+div:hover{
+background-color:white;
+border-color:black;
+color:red;
+cursor:pointer;
+font-weight:bold;
+}
+nav{
+display:flex;
+align-items:left;
+padding:0 50px;
+height:50px;
+}
+
+
+
+
